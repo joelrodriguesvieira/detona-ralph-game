@@ -1,0 +1,19 @@
+@media screen and (max-width:460px){
+    .square {
+        height: 110px;
+        width: 110px;
+    }
+
+    .panel {
+        margin: auto 0;
+    }
+
+    .menu h2 {
+        font-size: 1.1rem;
+        margin: 0 1rem;
+    }
+
+    .menu-lives img {
+        height: 45px;
+    }
+}
