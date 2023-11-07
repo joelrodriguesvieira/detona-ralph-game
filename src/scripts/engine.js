@@ -75,7 +75,7 @@ function countDonw() {
     if (state.values.currentTime <= 0) {
         clearInterval(state.actions.countDonwTimeId);
         clearInterval(state.actions.timerId);
-        alert("Game Over! O seu resultado foi " + state.values.result);
+        viewGameOver();
     }
 };
 
